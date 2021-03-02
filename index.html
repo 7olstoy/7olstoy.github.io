@@ -15,16 +15,15 @@
 </head>
 <body>
   <style type="text/css">
-    .centerImage
-    {
-    position: absolute;
-    margin: auto;
-    left: 0;
-    top: 0;
-    bottom: 0;
-    right: 0;
+    .centerImage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 98vh;
     }
   </style>
-  <a href="#" onClick="document.getElementById('audio').play(); return false;"><img src="White-goose.jpg" class="centerImage"></a>
+  <div class="centerImage">
+    <a href="#" onClick="document.getElementById('audio').play(); return false;"><img src="White-goose.jpg"></a>
+  </div>
 </body>
 </html>
